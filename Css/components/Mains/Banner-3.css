@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
+html,body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.Main-4{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 100px;
+}
+.Main-4 .btn-green{
+    background: #05c46b;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.Main-4 .btn-green:hover{
+    filter: brightness(110%);
+}
+.Main-4 .btn-green:focus{
+    outline: none;
+}
+.Main-4 h2{
+    margin-bottom: 20px;
+}
+/* BG */
+.Main-4 .col-xl-6:nth-child(1){
+    background: url('../../../Pictures/bg3.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding: 10em;
+}
+.Main-4 .col-xl-6:nth-child(2){
+    background: url('../../../Pictures/bg4.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 10em;
+}

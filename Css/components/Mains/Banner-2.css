@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
+
+html , body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.Main-2{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+/* LEFT */
+.Main-2 .left{
+    background: url("../../../Pictures/bg1.jpg");
+    background-size: cover;
+    height: 600px;
+}
+
+/* RIGHT */
+.Main-2 .right{  
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 10em;
+}
+.Main-2 .right h5{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+
+}
+.Main-2 .right h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+}
+.Main-2 .right h1 span {
+    color: #ff3f34  ;
+}
+.Main-2 .right p{
+    color: #999;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 1vw;
+}
+.Main-2 .right .btn{
+    padding: 10px 20px;
+
+}
+.Main-2 .right .btn-parent{
+    background: transparent;
+    border: 1px solid #999;
+    color: #4a4a4a;
+}
+.Main-2 .right .btn-parent:hover{
+    background: #05c46b;
+    border:#05c46b ;
+    color: white;
+}

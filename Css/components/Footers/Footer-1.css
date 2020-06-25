@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+html,body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+/* FOOTER-1 */
+.footer-1{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #17181b;
+    color: #727377;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.footer-1 .col-md-4{
+    position: relative;
+    width: 100%;
+}
+.footer-1 .col-md-4 .logo img{
+    width: 100%;
+
+}
+
+.footer-1  .col-md-4 .title{
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.footer-1  .col-md-4 .text{
+    margin-bottom: 50px;
+}
+.footer-1  .col-md-4 .follow{
+    margin-bottom: 10px;
+}
+.footer-1  .col-md-4 .follow span{
+    color: white;
+    padding: 3px 5px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.footer-1  .col-md-4 .follow span:nth-child(1){
+    background: #00b7ff;
+}
+.footer-1  .col-md-4 .follow span:nth-child(2){
+    background: rgb(255, 51, 0);
+}
+.footer-1  .col-md-4 .follow span:nth-child(3){
+    background: rgb(255, 0, 212);
+}
+.footer-1  .col-md-4 .follow span:nth-child(4){
+    background: rgb(52, 62, 201);
+    font-weight: 500; 
+    padding: 2px 10px;
+}
+/* FORM */
+.footer-1  .col-md-4 .form {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.footer-1  .col-md-4 .form input{
+    border: none;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.footer-1  .col-md-4 .form input:nth-child(1){
+    float: left;
+    width: 49%;
+}
+.footer-1  .col-md-4 .form input:nth-child(2){
+    float: right;
+    width: 49%;
+}
+.footer-1  .col-md-4 .form input:nth-child(3){
+    width: 100%;
+}
+.footer-1  .col-md-4 .form textarea{
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.footer-1  .col-md-4 .form textarea:focus{
+    outline: none;
+}
+.footer-1  .col-md-4 .form input:focus{
+    outline: none;
+}
+.footer-1 .col-md-4 .form input::placeholder{
+    font-size: 14px;
+}
+
+.footer-1 .col-md-4 .form button{
+    padding: 10px 3px;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    background: #ff3f34;
+    color: white;
+    transition: 0.2s;
+    float: right;
+}
+.footer-1 .col-md-4.form button:hover{
+    filter: brightness(130%);
+}
+
+/* PAYMENT */

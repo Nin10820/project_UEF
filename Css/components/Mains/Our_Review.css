@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
+
+html,
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.Main-6 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* TITLE */
+.Main-6 .title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.Main-6 .title h5 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+}
+
+.Main-6 .title h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+}
+
+.Main-6 .title h1 span {
+    color: #ff3f34;
+}
+
+.Main-6 .title p {
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #999;
+
+}
+
+/* CARD */
+.Main-6 .card{
+    border: none;
+    text-align: center;
+}
+.Main-6 .card .card-ava{
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translate(-20%,-20%);
+}
+@media screen and (max-width:1199px){
+    .Main-6 .card .card-ava{
+        width: 70px;
+        height: 70px;
+        overflow: hidden;
+        border-radius: 50%;
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        transform: translate(-30%,-40%);
+    }
+}
+@media screen and (max-width:991px){
+    .Main-6 .card .card-ava{
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        border-radius: 50%;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        transform: translate(-30%,-40%);
+    }
+}
+@media screen and (max-width:575px){
+    .Main-6 .card .card-ava{
+        width: 90px;
+        height: 90px;
+        overflow: hidden;
+        border-radius: 50%;
+        position: absolute;
+        top: 55%;
+        left: 10%;
+    }
+}
+.Main-6 .card .card-title{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.Main-6 .card .time{
+    border: 1px #cecece solid;
+    padding: 5px;
+    border-left: none;
+    border-right: none;
+    color: rgb(134, 134, 134);
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.Main-6 .card p{
+    color: #999;
+    font-size: 18px;
+}
+.Main-6 .card .btn-parent {
+    background: transparent;
+    border: 1px solid #999;
+    color: #4a4a4a;
+    padding: 10px 20px;
+}
+.Main-6 .card .btn-parent:hover {
+    background: #05c46b;
+    border: #05c46b;
+    color: white;
+}

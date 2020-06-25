@@ -1,0 +1,38 @@
+html,body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.Main-7 {
+    position: relative;
+    width: 200%;
+    height: 300px;
+    display: flex;
+    animation: slide 30s linear infinite;
+    margin-bottom: 100px;
+}
+.Main-7 .slide1{
+    width: 100%;
+    height: 100%;
+    background: url('../../../Pictures/bg7.jpg');
+    background-position: center ;
+    background-size: cover;
+}
+.Main-7 .slide2{
+    width: 100%;
+    height: 100%;
+    background: url('../../../Pictures/bg7.jpg');
+    background-position: center ;
+    background-size: cover;
+
+}
+@keyframes slide{
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: -100%;
+    }
+}

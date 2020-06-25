@@ -1,0 +1,43 @@
+html,body{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.Resgister{
+    position: relative;
+    width: 500px;
+    padding: 30px;
+    border: 1px solid #cecece;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.Resgister h2{
+    text-align: center;
+}
+.Resgister .form-group{
+    margin-top: 1.5em;
+}
+.Resgister button{
+    background: #ff3f34 ;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 2.5em;
+    transition: 0.2s;
+}
+.Resgister button:hover{
+    color: white;
+    font-size: 16px;
+}
+.Resgister .form-check{
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+.Resgister .form-check a{
+    color: #05c46b;
+    font-weight: 500;
+}

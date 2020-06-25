@@ -1,0 +1,24 @@
+html,body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.Footer-2{
+    position: relative;
+    background: #1c1d21;
+    color: #727377;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.Footer-2 a{
+    color: white;
+    font-weight: 700;
+}
+.Footer-2 a:hover{
+    color: white;
+    text-decoration: none;
+    
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+html,body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.Single{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* TITLE */
+.Single .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.Single .title h5{
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+}
+.Single .title h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+}
+.Single .title h1 span {
+    color: #ff3f34  ;
+}
+
+/* MAIN */
+/* LEFT */
+
+.Single .left{
+    font-size: 1em;
+}
+.Single .left p{
+    color: #999;
+}
+.Single .left h4{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.Single .left button{
+    background: #05c46b;
+    color: white;
+}
+.Single .right h4{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #4a4a4a;
+}
+.Single .right .list-unstyled a {
+    color: #4a4a4a;
+    font-family: 'Roboto', sans-serif;
+}
+.Single .right .list-group{
+    font-family: 'Roboto', sans-serif;
+    color: #4a4a4a;
+}
+.Single .right .badge{
+    background: #999;
+    color: white;
+}
+
+.Single .right .top-stories a{
+    font-size: 15px;
+    color: #4a4a4a;
+}
+.Single .right .top-stories span{
+    font-size: 13px;
+    color: #999;
+}

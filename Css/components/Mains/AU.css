@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap');
+
+html,body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.About_Us{
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* TITLE */
+.About_Us .title{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.About_Us .title p{
+    color: #999;
+}
+.About_Us .title span{
+    color: red;
+}
+@media screen and (max-width: 767px){
+    .About_Us .title{
+        width: 100%;
+    }
+}
+
+/* MAIN */
+.About_Us .main{
+    width: 100%;
+    margin-top: 50px;
+}
+.About_Us .main h5{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.About_Us .main p{
+    font-size: 17px;
+    color: #999;
+    padding-bottom: 20px;
+}
+
+.About_Us .main .left{
+    padding-right: 100px;
+}
+.About_Us .main .left p:nth-child(2){
+    border-bottom: 1px solid #cecece;
+}
+@media screen and (max-width:1024px)
+{
+    .About_Us .main .left p{
+        font-size: 0.9em
+    }
+}
+@media screen and (max-width:768px)
+{
+    .About_Us .main .left p{
+        font-size: 0.7em;
+        padding-bottom: 10px;
+    }
+    .About_Us .main h5{
+        font-size: 1.2em;
+    }
+}
+.About_Us .main .right{
+    position: relative;
+    width: 100%;
+}
+.About_Us.main .right  img{
+    width: 100%;
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- --Bootstrap_4-- -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- --CSS-- -->
+    <link rel="stylesheet" href="../../Css/components/Mains/Menu.css">
+    <link rel="stylesheet" href="../../Css/components/Headers/Header-1.css">
+    <link rel="stylesheet" href="../../Css/components/Headers/Header-2.css">
+    <link rel="stylesheet" href="../../Css/components/Breadcrumb/Breadcrumb.css">
+    <link rel="stylesheet" href="../../Css/components/Footers/Footer-1.css">
+    <link rel="stylesheet" href="../../Css/components/Footers/Footer-2.css">
+    <link rel="stylesheet" href="../../Css/components/Login/Login.css">
+
+    <!-- JS -->
+    <script src="../JS/GoTop.js"></script>
+
+    <!-- Fontawesome -->
+    <link href="../../fontawesome-free-5.9.0-web/css/all.css" rel="stylesheet">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- GOTOP -->
+    <button onclick="GoTop()" class="goTop" title="Go to top"><i class="fa fa-level-up" aria-hidden="true"></i></button>
+    <!-- Header-1 -->
+    <section class="header-1 container">
+        <div class="row">
+            <div class="col-xl-7 col-md-5 text-lg-left text-center">
+                <div class="row">
+                    <div class="col-xl-5  col-6">
+                        <div class="left"><span><i class="fas fa-map-marker-alt"></i> Ho Chi Minh , Viet Nam</div>
+                    </div>
+                    <div class="col-xl-5  col-6">
+                        <div class="right"><span><i class="fas fa-phone-alt"></i></span> (+84) 987654321</div>
+                    </div>
+                    <div class="col-xl-2"></div>
+                </div>
+            </div>
+
+            <div class="col-xl-5 col-md-7 top-social-agile text-md-right text-center">
+                <div class="row">
+                    <div class="col-xl-6 col-6">
+                        <div class="left">
+                            <button id="login"><span><i class="fas fa-sign-in-alt"></i></span>login</button>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-6">
+                        <div class="follow">
+                            <span class="follow-text">Follow Us:</span>
+                            <span class="follow-item"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                            <span class="follow-item"><i class="fab fa-twitter"></i></span>
+                            <span class="follow-item"><i class="fab fa-instagram"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Header-2 -->
+    <div class="header-2">
+        <div class="container">
+            <div class="header_logo">
+                <a href=""><img src="../../Pictures/logo.png" alt=""></a>
+            </div>
+
+            <div class="header_nav">
+                <li><a href="../HTML/Home.html">Home</a></li>
+                <li><a href="../HTML/About_Us.html">About us</a></li>
+                <li>
+                    <a href="#" class="dropdown">Other <i class="fas fa-chevron-down"></i></a>
+                    <ul class="drop-nav">
+                        <li><a href="../HTML/About_Us.html">Blog</a></li>
+                        <li><a href="../HTML/About_Us.html#Our_chefs">My Chef</a></li>
+                        <li><a href="../HTML/About_Us.html#service">Service</a></li>
+                        <li><a href="../HTML/About_Us.html">Event</a></li>
+                    </ul>
+                </li>
+                <li><a href="../HTML/Menu_Page.html">Menu</a></li>
+                <li><a href="../HTML/Contact_Us.html">Contact us</a></li>
+                <li class="bar"><a href=""><i class="fas fa-bars"></i></a></li>
+            </div>
+        </div>
+    </div>
+
+    <!-- BREADCOUMB -->
+    <div class="breadcrumb container">
+        <li><a href="../../Pages/HTML/Home.html">Home</a></li>
+        <li class="active">Login</li>
+    </div>
+
+
+    <!-- LOGIN -->
+    <div class="container login ">
+        <h2>Login form</h2>
+        <form action="">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+            </div>
+
+            <button type="submit" class="btn btn-block btn-lg">Submit</button>
+            <div class="form-group form-check">
+                <a href="">Forget your password</a>
+                <p>Don't have an account? <a href="../HTML/Register_Page.html">Create one now</a></p>
+            </div>
+        </form>
+    </div>
+
+    <!-- FOOTER-1 -->
+    <div class="footer-1">
+        <div class="container">
+            <div class=" row  ">
+                <div class="col-md-4">
+                    <div class="logo">
+                        <img src="../../Pictures/logo.png" alt="">
+                    </div>
+                    <div class="text">Sed ut perspiciatis unde omnis iste natus errorhjhsit lupt atem accursit lupt
+                        atem accu dfdsa ntium doloremque laudan tium accu santium dolore.</div>
+                    <div class="follow">
+                        Follow As: <span><i class="fab fa-twitter"></i></span><span><i
+                                class="fab fa-google-plus-g"></i></span><span><i
+                                class="fab fa-dribbble"></i></span><span>f</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="title">Contact Us</div>
+                    <div class="text">
+                        <p>Address : 1234 lock, Charlotte, North Carolina, United States</p>
+                        <p>Phone : +12 534894364</p>
+                        <p>Email : info@example.com</p>
+                    </div>
+                    <div class="title">Payment Method</div>
+                    <div class="payment">
+                        <span>
+                            <img src="../../Pictures/pay1.png" alt="">
+                        </span>
+                        <span>
+                            <img src="../../Pictures/pay2.png" alt="">
+                        </span>
+                        <span>
+                            <img src="../../Pictures/pay5.png" alt="">
+                        </span>
+                        <span>
+                            <img src="../../Pictures/pay4.png" alt="">
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="title">Request Info</div>
+                    <div class="form">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Phone">
+                        <input type="text" placeholder="Email">
+                        <textarea name="" id="" cols="50" rows="10" placeholder="Comment"></textarea>
+                        <button class="btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER-2 -->
+    <div class="Footer-2">
+        <div class="text">© 2019 Tasty Burger. All rights reserved | Design by <a href="">W3layouts.</a></div>
+    </div>
+
+    <!-- JS -->
+    <script>
+        $('#login').click(function () {
+            window.location = "Login_Page.html"
+        });
+    </script>
+</body>
+
+</html>

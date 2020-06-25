@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
+html,body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.Main-8{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+}
+/* RIGHT */
+.Main-8 .right{
+    background: url('../../../Pictures/sub.png');
+    background-size: cover;
+    width: 30%;
+    height: 100%;
+}
+
+/* LEFT */
+.Main-8 .left{
+    position: relative;
+    width: 70%;
+    height: 100%;
+}
+.Main-8 .left .left-main{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Main-8 .left .title{
+    width: 60%;
+    margin: 0 auto;
+}
+.Main-8 .left .title h1{
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+}
+.Main-8 .left .title p{
+    color: #999;
+}
+.Main-8 .left .form input{
+    padding: 12px;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+}
+.Main-8 .left .form button{
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    margin-left: -4px;
+    background: #ff3f34;
+    color: white;
+    transition: 0.2s;
+}
+.Main-8 .left .form button:focus{
+    outline: none;
+}
+.Main-8 .left .form button:hover{
+    filter: brightness(130%);
+}
+@media screen and (max-width: 1200px){
+    .Main-8 .left{
+        background: url('../../../Pictures/sub.png');
+        background-size: cover;
+        width: 100%;
+    }
+    .Main-8 .right{
+        display: none;
+    }
+}

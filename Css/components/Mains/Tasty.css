@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
+html,body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.Main-3{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+/* TITLE */
+.Main-3 .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.Main-3 .title h5{
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+}
+.Main-3 .title h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+}
+.Main-3 .title h1 span {
+    color: #ff3f34  ;
+}
+/* CARD */
+.Main-3 .card .card-text{
+    color: #999;
+}
+.Main-3 .card .btn-parent{
+    margin-top: 20px;
+    background: transparent;
+    border: 1px solid #999;
+    color: #4a4a4a;
+    padding: 10px 20px;
+}
+.Main-3 .card .btn-parent:hover{
+    background: #05c46b;
+    border:#05c46b ;
+    color: white;
+}
+.Main-3 .card img:hover{
+    opacity: 0.9;
+}

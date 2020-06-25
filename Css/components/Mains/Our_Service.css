@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
+html,body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.Main-5{
+    position: relative;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background: url('../../../Pictures/bg5.jpg');
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+/* TITLE */
+.Main-5 .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.Main-5 .title h5{
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+}
+.Main-5 .title h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+}
+.Main-5 .title h1 span {
+    color: #ff3f34  ;
+}
+
+/* ITEMS */
+.Main-5 .item{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.Main-5 .item img{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.Main-5 .col-xl-6:nth-child(1) .item:nth-child(1){
+    margin-left: 200px;
+}
+.Main-5 .col-xl-6:nth-child(2) .item:nth-child(1){
+    margin-right: 200px;
+}
+.Main-5  .col-xl-6:nth-child(1) .text{
+    text-align: right;
+}
+/* TEXT */
+.Main-5 .item .text{
+    width: 300px;
+}   
+.Main-5 .item .text h4{
+    font-weight: bold;
+}
+.Main-5 .item .text p{
+    color: #999;
+}
+/* IMAGE */
+.Main-5 .img{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+}
+
+@media screen and (max-width: 1199px){
+    .Main-5 .img{
+        display: none;
+    }
+    .Main-5 .col-xl-6:nth-child(1) .item:nth-child(1){
+        margin-left: 0px;
+    }
+    .Main-5 .col-xl-6:nth-child(2) .item:nth-child(1){
+        margin-right: 0px;
+    }
+}

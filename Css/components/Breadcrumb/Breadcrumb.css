@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+html,body{
+    width: 100%;
+    height: auto;
+}
+.breadcrumb{
+    font-family: 'Rubik', sans-serif;
+    padding :15px 15px 15px;
+    background: rgb(253, 253, 253);
+    border-top: 1px solid #f4f4f4;  
+    border-bottom: 1px solid #f4f4f4;
+}
+.breadcrumb li+li::before{
+    padding: 8px;
+    content: "/ ";
+    color: #999;
+}
+.breadcrumb li a{
+    color: #ff3f34;
+    font-weight: 600;
+}
+.breadcrumb li a:hover{
+    filter: brightness(150%);
+    text-decoration: none;
+}   
+.breadcrumb .active{
+    color: #999;
+}

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- --Bootstrap_4-- -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- --CSS-- -->
+    <link rel="stylesheet" href="../CSS/Home.css">
+    <link rel="stylesheet" href="../../Css/components/Headers/Header-1.css">
+    <link rel="stylesheet" href="../../Css/components/Headers/Header-2.css">
+    <link rel="stylesheet" href="../../Css/components/Mains/Banner-1.css">
+    <link rel="stylesheet" href="../../Css/components/Mains/Banner-2.css">
+    <link rel="stylesheet" href="../../Css/components/Mains/Tasty.css">
+    <link rel="stylesheet" href="../../Css/components/Mains/Banner-3.css">
+    <link rel="stylesheet" href="../../Css/components/Mains/Our_Service.css">
+    <link rel="stylesheet" href="../../Css/components/Mains/Our_Review.css">
+    <link rel="stylesheet" href="../../Css/components/Mains/Slide.css">
+    <link rel="stylesheet" href="../../Css/components/Mains/Subcribe.css">
+    <link rel="stylesheet" href="../../Css/components/Footers/Footer-1.css">
+    <link rel="stylesheet" href="../../Css/components/Footers/Footer-2.css">
+
+    <!-- JS -->
+    <script src="../JS/GoTop.js"></script>
+
+    <!-- Fontawesome -->
+    <link href="../../fontawesome-free-5.9.0-web/css/all.css" rel="stylesheet">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- GOTOP -->
+    <button onclick="GoTop()" class="goTop" title="Go to top"><i class="fa fa-level-up" aria-hidden="true"></i></button>
+    <!-- HEADER -->
+    <!-- Header-1 -->
+    <section class="header-1 container">
+        <div class="row">
+            <div class="col-xl-7 col-md-5 text-lg-left text-center">
+                <div class="row">
+                    <div class="col-xl-5  col-6">
+                        <div class="left"><span><i class="fas fa-map-marker-alt"></i> Ho Chi Minh , Viet Nam</div>
+                    </div>
+                    <div class="col-xl-5  col-6">
+                        <div class="right"><span><i class="fas fa-phone-alt"></i></span> (+84) 987654321</div>
+                    </div>
+                    <div class="col-xl-2"></div>
+                </div>
+            </div>
+
+            <div class="col-xl-5 col-md-7 top-social-agile text-md-right text-center">
+                <div class="row">
+                    <div class="col-xl-6 col-6">
+                        <div class="left">
+                            <button id="login"><span><i class="fas fa-sign-in-alt"></i></span>login</button>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-6">
+                        <div class="follow">
+                            <span class="follow-text">Follow Us:</span>
+                            <span class="follow-item"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                            <span class="follow-item"><i class="fab fa-twitter"></i></span>
+                            <span class="follow-item"><i class="fab fa-instagram"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Header-2 -->
+    <div class="header-2">
+        <div class="container">
+            <div class="header_logo">
+                <a href=""><img src="../../Pictures/logo.png" alt=""></a>
+            </div>
+
+            <div class="header_nav">
+                <li><a href="../HTML/Home.html">Home</a></li>
+                <li><a href="../HTML/About_Us.html">About us</a></li>
+                <li>
+                    <a href="#" class="dropdown">Other <i class="fas fa-chevron-down"></i></a>
+                    <ul class="drop-nav">
+                        <li><a href="../HTML/About_Us.html">Blog</a></li>
+                        <li><a href="../HTML/About_Us.html#Our_chefs">My Chef</a></li>
+                        <li><a href="../HTML/About_Us.html#service">Service</a></li>
+                        <li><a href="../HTML/About_Us.html">Event</a></li>
+                    </ul>
+                </li>
+                <li><a href="../HTML/Menu_Page.html">Menu</a></li>
+                <li><a href="../HTML/Contact_Us.html">Contact us</a></li>
+                <li class="bar"><a href=""><i class="fas fa-bars"></i></a></li>
+            </div>
+        </div>
+    </div>
+
+    <!-- BODY -->
+    <!---- MAIN_1 ---->
+    <div class="Main-1">
+        <div class="row">
+            <div class="col-lg-5 left">
+                <h5>Only Fresh Buggers</h5>
+                <h1>Flame <span>Grilled Burger</span></h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident sed eligendi quisquam molestiae
+                    laudantium iure</p>
+
+                <div class="button">
+                    <button class="btn btn-green" id="single">Read More</button>
+                    <button class="btn btn-parent" id="other">Order Now <i class="fas fa-caret-right"></i></button>
+                </div>
+            </div>
+            <div class="col-lg-7 right" id="right">
+                <div class="dots">
+                    <span class="dot" onclick="clickDot(1)"></span>
+                    <span class="dot" onclick="clickDot(2)"></span>
+                    <span class="dot" onclick="clickDot(3)"></span>
+                    <span class="dot" onclick="clickDot(4)"></span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN_2 -->
+    <div class="Main-2">
+        <div class="row">
+            <div class="col-lg-5 left">
+
+            </div>
+            <div class="col-lg-7 right">
+                <h5>Only Fresh Buggers</h5>
+                <h1>Flame <span>Grilled Burger</span></h1>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque
+                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                    architecto
+                    beatae vitae dicta
+                    sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit.</p>
+                <button class="btn btn-parent" id="single">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN_3 -->
+    <div class="Main-3 container">
+        <div class="title">
+            <h5>Tasty</h5>
+            <h1>Our <span>Special</span></h1>
+        </div>
+        <div class="container card-deck">
+            <div class="card" style="width:350px">
+                <img src="../../Pictures/blog1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">French Buger</h4>
+                    <div class="card-text">Cras ultricies ligula sed magna dictum porta auris blandita</div>
+                    <button class="btn btn-parent" id="menu">View More</button>
+                </div>
+            </div>
+            <div class="card" style="width:350px">
+                <img src="../../Pictures/blog2.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Veg Muffin</h4>
+                    <div class="card-text">Cras ultricies ligula sed magna dictum porta auris blandita</div>
+                    <button class="btn btn-parent" id="menu">View More</button>
+                </div>
+            </div>
+            <div class="card" style="width:350px">
+                <img src="../../Pictures/blog3.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Hashbrown Brioche</h4>
+                    <div class="card-text">Cras ultricies ligula sed magna dictum porta auris blandita</div>
+                    <button class="btn btn-parent" id="menu">View More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN_4 -->
+    <div class="Main-4">
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="text">
+                    <h2>Best Fast Food Collection</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sapiente numquam inventore
+                        mollitia rem quo qui eveniet? Corrupti</p>
+                </div>
+                <button class="btn btn-green" id="other">
+                    Other Now
+                </button>
+            </div>
+            <div class="col-xl-6">
+                <div class="text">
+                    <h2>Best Fast Food Collection</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sapiente numquam inventore
+                        mollitia rem quo qui eveniet? Corrupti</p>
+                </div>
+                <button class="btn btn-green" id="other">
+                    Other Now
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN_5 -->
+    <div class="Main-5">
+        <div class="title">
+            <h5>Our Service</h5>
+            <h1>Excellent <span>Services</span></h1>
+        </div>
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="item">
+                    <div class="text">
+                        <h4>Free Shipping</h4>
+                        <p>Morbi viverra lacus commodo felis semper lectus feugiat.</p>
+                    </div>
+                    <img src="../../Pictures/s1.png" alt="">
+                </div>
+                <div class="item">
+                    <div class="text">
+                        <h4>Online Other</h4>
+                        <p>Morbi viverra lacus commodo felis semper lectus feugiat.</p>
+                    </div>
+                    <img src="../../Pictures/s2.png" alt="">
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="item">
+                    <img src="../../Pictures/s3.png" alt="">
+                    <div class="text">
+                        <h4>Free & Easy Return</h4>
+                        <p>Morbi viverra lacus commodo felis semper lectus feugiat.</p>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <img src="../../Pictures/s4.png" alt="">
+                    <div class="text">
+                        <h4>24/7 Support</h4>
+                        <p>Morbi viverra lacus commodo felis semper lectus feugiat.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="img">
+            <img src="../../Pictures/img.png" alt="">
+        </div>
+    </div>
+
+    <!-- MAIN_6 -->
+    <div class="Main-6 container">
+        <div class="title container">
+            <h5>Our Review</h5>
+            <h1>Excellent <span>Services</span></h1>
+            <p>Inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim totam rem aperiam.
+            </p>
+        </div>
+        <div class="card-deck ">
+            <div class="card">
+                <img src="../../Pictures/blog1.png" alt="" class="card-img-top">
+                <div class="card-body">
+                    <img src="../../Pictures/te1.jpg" class="card-ava" alt="">
+                    <div class="card-title">
+                        Set ut Riciatis
+                    </div>
+                    <div class="time">NOV 12</div>
+                    <p>Cras ultricies ligula sed magna dictum porta auris blandita.</p>
+                    <button class="btn btn-parent" id="single">Read More</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../../Pictures/blog2.png" alt="" class="card-img-top">
+                <div class="card-body">
+                    <img src="../../Pictures/te2.jpg" class="card-ava" alt="">
+                    <div class="card-ava"></div>
+                    <div class="card-title">
+                        Set ut Riciatis
+                    </div>
+                    <div class="time">NOV 12</div>
+                    <p>Cras ultricies ligula sed magna dictum porta auris blandita.</p>
+                    <button class="btn btn-parent" id="single">Read More</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../../Pictures/blog3.png" alt="" class="card-img-top">
+                <div class="card-body">
+                    <img src="../../Pictures/te3.jpg" class="card-ava" alt="">
+                    <div class="card-ava"></div>
+                    <div class="card-title">
+                        Set ut Riciatis
+                    </div>
+                    <div class="time">NOV 12</div>
+                    <p>Cras ultricies ligula sed magna dictum porta auris blandita.</p>
+                    <button class="btn btn-parent" id="single">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN_7 -->
+    <div class="Main-7">
+        <div class="slide1"></div>
+        <div class="slide2"></div>
+    </div>
+
+    <!-- MAIN_8 -->
+    <div class="Main-8">
+        <div class="left">
+            <div class="left-main">
+                <div class="title">
+                    <h1>Subcribe to Newsletter</h1>
+                    <p>Free Delivery on your first order!</p>
+                </div>
+                <div class="form">
+                    <input type="email" placeholder="Enter your Email">
+                    <button class="btn-red">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="right"></div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <!-- FOOTER_1 -->
+    <div class="footer-1">
+        <div class="container">
+            <div class=" row  ">
+                <div class="col-md-4">
+                    <div class="logo">
+                        <img src="../../Pictures/logo.png" alt="">
+                    </div>
+                    <div class="text">Sed ut perspiciatis unde omnis iste natus errorhjhsit lupt atem accursit lupt
+                        atem accu dfdsa ntium doloremque laudan tium accu santium dolore.</div>
+                    <div class="follow">
+                        Follow As: <span><i class="fab fa-twitter"></i></span><span><i
+                                class="fab fa-google-plus-g"></i></span><span><i
+                                class="fab fa-dribbble"></i></span><span>f</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="title">Contact Us</div>
+                    <div class="text">
+                        <p>Address : 1234 lock, Charlotte, North Carolina, United States</p>
+                        <p>Phone : +12 534894364</p>
+                        <p>Email : info@example.com</p>
+                    </div>
+                    <div class="title">Payment Method</div>
+                    <div class="payment">
+                        <span>
+                            <img src="../../Pictures/pay1.png" alt="">
+                        </span>
+                        <span>
+                            <img src="../../Pictures/pay2.png" alt="">
+                        </span>
+                        <span>
+                            <img src="../../Pictures/pay5.png" alt="">
+                        </span>
+                        <span>
+                            <img src="../../Pictures/pay4.png" alt="">
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="title">Request Info</div>
+                    <div class="form">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Phone">
+                        <input type="text" placeholder="Email">
+                        <textarea name="" id="" cols="50" rows="10" placeholder="Comment"></textarea>
+                        <button class="btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER_2 -->
+    <div class="Footer-2">
+        <div class="text">© 2019 Tasty Burger. All rights reserved | Design by <a href="">W3layouts.</a></div>
+    </div>
+
+    <!-- --JS-- -->
+    <script>
+        $('#login').click(function () {
+            window.location = "Login_Page.html";
+        });
+
+        $('*#single').click(function () {
+            window.location = "Single_Page.html";
+        });
+        $('*#menu').click(function () {
+            window.location = "Menu_Page.html";
+        });
+        $('*#other').click(function () {
+            window.location = "Login_Page.html";
+        });
+    </script>
+    <script src="../../JS/Main/Main-1.js"></script>
+
+</body>
+
+</html>
